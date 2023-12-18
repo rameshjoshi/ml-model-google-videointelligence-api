@@ -14,3 +14,8 @@ A service endpoint is a base URL that specifies the network address of an API se
 https://videointelligence.googleapis.com
 
 ![image](https://github.com/rameshjoshi/ml-model-google-videointelligence-api/assets/7277702/e3c24c5a-1f4b-464f-960e-2f9d91332172)
+
+Step 1 In the terminal, export the key.json file
+export GOOGLE_APPLICATION_CREDENTIALS=key.json
+Step 2 Execute the Python command to call the Video Intelligence API and pass in the digital video file path as an argument:
+python shotchange.py gs://cloud-samples-data/video/JaneGoodall.mp4
